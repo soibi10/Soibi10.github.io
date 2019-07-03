@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Canadian WildLife</title>
+	<link rel="icon" type="image/ico" href="images/bluejay.ico">
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/feedback.css">
+</head>
+
+<body>
+
+  <header>
+  	<img src="../images/blue_jay.png" alt="blue_jay" width="70">
+   	<h2>CANADIAN WILDLIFE</h2>
+   	<h3>Wild About Birds</h3>
+  </header>
+  <nav id="nav_menu">
+  	<ul>
+    	<li><a href="../index.html">Home</a></li>
+    	<li><a href="../about/about.html">About Birds</a></li>
+    	<li><a href="../population/population.html">Bird Population</a>
+    		<ul>
+    			<li><a href="../pages/north.html">North Canada</a></li>
+    			<li><a href="../pages/south.html">South Canada</a>
+					<ul>
+						<li><a href="../pages/kent.html">Chatham-Kent</a></li>
+						<li><a href="../pages/niagara.html">Niagara Falls</a></li>
+					</ul>
+				</li>
+    		</ul>
+    	</li>
+    	<li><a href="feedback.html" class="current">Feedback</a></li>
+	</ul>
+  </nav>
+  
+  
+  <main class="sides">
+		
+		<aside class="left_side">
+			<nav id="nav_list">
+			<ul>
+				<li><a href="../index.html"><img src="../images/1home.jpg" width="120"></a></li> 
+				<li><a href="../about/about.html"><img src="../images/2about.jpg" width="120"></a></li> 
+				<li><a href="../population/population.html"><img src="../images/3population.jpg" width="120"></a></li> 
+				<li><a href="../feedback/feedback.html"><img src="../images/4feedback.jpg" width="120"></a></li> 
+			</ul>
+			</nav>
+		</aside>
+	
+	<!-- ***************************************************************** -->
+	<!-- ***************************************************************** -->
+		<article class="middle">
+			 
+			<figcaption>Please enter the following information: </figcaption>
+		
+			<label for="fullName">Full Name: </label>
+				<input type="text" id="firstName" autofocus><br>
+			<label for="email">Email: </label>
+				<input type="text" id="email" autofocus placeholder="abc@gmail.com">
+				<br>
+			Age:<select name="age">	
+				<optgroup label="Specify the age range">
+					<option> - - age - -</option>
+					<option>- less than 16"</option>
+					<option>- between 16 and 18"</option>
+					<option>- greater than 18"</option>
+				</optgroup>
+				</select>
+			<br><br>
+			Comments: <textarea name="comments" autofocus placeholder="If you have any comments, please enter them here.">
+			</textarea>
+			
+			
+			<input type="submit" id="button" value="Register">
+			<input type="reset" id="reset" value="Reset">
+ 
+		</article>
+		
+		<!-- ***************************************************************** -->
+		<!-- ***************************************************************** -->
+	
+	
+		<section class="right_side">
+			
+			<fieldset>
+			<legend>Crust</legend>
+				<input type="radio" name="crust" value="thin">Thin<br>
+				<input type="radio" name="crust" value="deep" checked>Deep<br>
+				<input type="radio" name="crust" value="hand">Hand<br><br>
+			</fieldset>
+			<br>
+			<fieldset>
+			<legend>Toppings</legend>
+				<input type="checkbox" name="topping1" value="pepperoni">Pepperoni<br>
+				<input type="checkbox" name="topping2" value="mushrooms">Mushrooms<br>
+				<input type="checkbox" name="topping3" value="olives">Olives<br>
+			</fieldset>
+			<br>
+			<br>
+
+				
+		</section>
+	</main>
+	
+		
+  
+
+  <footer>
+	<p>&copy; 2019 Yusuf Olmez</p>
+  </footer>
+</body>
+</html>
